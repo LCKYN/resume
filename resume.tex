@@ -93,10 +93,25 @@
 \newcommand\email{root@lckyn.com}
 \newcommand\mobie{(+66)083-028-2014}
 
+%-----------info EDUCATION-----------------
+%-----------info bachelor-----------------
+\newcommand\bachelorUniversity{King Mongkut's University of Technology North Bangkok(KMUTNB)}
+\newcommand\bachelorMajor{Bachelor of Engineering in Computer}
+\newcommand\BachelorLocation{Bangkok, TH}
+\newcommand\bachelorDate{Aug. 2015 -- Apr. 2019}
+\newcommand\bachelorGPA{2.6}
 
-\newcommand\locationEdu{Bangkok, TH}
-\newcommand\fieldEdu{Bachelor of Engineering (Computer)}
-\newcommand\dateEdu{Aug. 2015 -- Apr. 2019}
+%-----------info master-----------------
+\newcommand\masterUniversity{King Mongkut's University of Technology North Bangkok(KMUTNB)}
+\newcommand\masterMajor{Master of Engineering in Computer}
+\newcommand\masterLocation{Bangkok, TH}
+\newcommand\masterDate{Aug. 2019 -- present}
+\newcommand\masterGPA{3.43}
+
+
+% \newcommand\locationEdu2{Bangkok, TH}
+% \newcommand\fieldEdu2{Bachelor of Engineering (Computer)}
+% \newcommand\dateEdu2{Aug. 2015 -- Apr. 2019}
 
 
 
@@ -115,14 +130,14 @@
 
 %-----------EDUCATION-----------------
 \section{Education}
-  \resumeSubHeadingListStart
-    \resumeSubheading
-      {\fieldEdu}{\locationEdu}
-      {Master of Science in Computer Science;  GPA: 4.00}{\dateEdu}
-    \resumeSubheading
-      {Birla Institute of Technology and Science}{Pilani, India}
-      {Bachelor of Engineering in Electrical and Electronics;  GPA: 3.66 (9.15/10.0)}{Aug. 2008 -- July. 2012}
-  \resumeSubHeadingListEnd
+    \resumeSubHeadingListStart
+        \resumeSubheading
+            {\masterUniversity}{\masterLocation}
+            {\masterMajor;  GPA: \masterGPA}{\masterDate}
+        \resumeSubheading
+            {\bachelorUniversity}{\BachelorLocation}
+        {\bachelorMajor;  GPA: \bachelorGPA}{\bachelorDate}
+    \resumeSubHeadingListEnd
 
 
 %-----------EXPERIENCE-----------------
@@ -130,69 +145,14 @@
   \resumeSubHeadingListStart
 
     \resumeSubheading
-      {Google}{Mountain View, CA}
-      {Software Engineer}{Oct 2016 - Present}
+      {iCONEXT CO., LTD.}{Bangkok, TH}
+      {Software Engineer (Internship)}{Apr 2018 - Jul 2018}
       \resumeItemListStart
         \resumeItem{Tensorflow}
           {TensorFlow is an open source software library for numerical computation using data flow graphs; primarily used for training deep learning models. Worked on APIs and performance for training models on Tensor Processing Units (TPU).}
         \resumeItem{Apache Beam}
           {Apache Beam is a unified model for defining both batch and streaming data-parallel processing pipelines, as well as a set of language-specific SDKs for constructing pipelines and runners.}
       \resumeItemListEnd
-      
-% --------Multiple Positions Heading------------
-%    \resumeSubSubheading
-%     {Software Engineer I}{Oct 2014 - Sep 2016}
-%     \resumeItemListStart
-%        \resumeItem{Apache Beam}
-%          {Apache Beam is a unified model for defining both batch and streaming data-parallel processing pipelines}
-%     \resumeItemListEnd
-%    \resumeSubHeadingListEnd
-%-------------------------------------------
-
-    \resumeSubheading
-      {Coursera}{Mountain View, CA}
-      {Senior Software Engineer}{Jan 2014 - Oct 2016}
-      \resumeItemListStart
-        \resumeItem{Notifications}
-          {Service for sending email, push and in-app notifications. Involved in features such as delivery time optimization, tracking, queuing and A/B testing. Built an internal app to run batch campaigns for marketing etc.}
-        \resumeItem{Nostos}
-          {Bulk data processing and injection service from Hadoop to Cassandra and provides a thin REST layer on top for serving offline computed data online.}
-        \resumeItem{Workflows}
-          {Dataduct an open source workflow framework to create and manage data pipelines leveraging reusables patterns to expedite developer productivity.}
-        \resumeItem{Data Collection}
-          {Designed the internal survey and crowd sourcing platform which allowed for creating various tasks for crowd sourcing or embedding surveys across the Coursera platform.}
-        \resumeItem{Dev Environment}
-          {Analytics environment based on docker and AWS, standardized the python and R dependencies. Wrote the core libraries that are shared by all data scientists.}
-        \resumeItem{Data Warehousing}
-          {Setup, schema design and management of Amazon Redshift. Built an internal app for access to the data using a web interface. Dataduct integration for daily ETL injection into Redshift.}
-        \resumeItem{Recommendations}
-          {Core service for all recommendation systems at Coursera, currently used on the homepage and throughout the content discovery process. Worked on both offline training and online serving.}
-        \resumeItem{Content Discovery}
-          {Improved content discovery by building a new onboarding experience on coursera. Using this to personalize the search and browse experience. Also worked on ranking and indexing improvements.}
-        \resumeItem{Course Dashboards}
-          {Instructor dashboards and learner surveying tools, which helped instructors run their class better by providing data on Assignments and Learner Activity.}
-      \resumeItemListEnd
-
-    \resumeSubheading
-      {Lucena Research}{Atlanta, GA}
-      {Data Scientist}{Summer 2012 and 2013}
-      \resumeItemListStart
-        \resumeItem{Portfolio Management}
-          {Created models for portfolio hedging,  portfolio optimization and price forecasting. Also creating a strategy backtesting engine used for simulating and backtesting strategies.}
-        \resumeItem{QuantDesk}
-          {Python backend for a web application used by hedge fund managers for portfolio management.}
-      \resumeItemListEnd
-
-    \resumeSubheading
-      {Georgia Institute of Technology}{Atlanta, GA}
-      {Research and Teaching Assistant}{Jan 2012 - Dec 2013}
-      \resumeItemListStart
-        \resumeItem{Research Assistant - Machine Learning}
-          {Research on machine learning for portfolio hedging and replication algorithms. Modeling low-risk \& continuous-return strategies. Developed the python library QSTK.}
-        \resumeItem{Teaching Assistant - Computational Investing}
-          {The online course on Coursera, had more than 100,000 students enrolled. It was featured on the 11 Alive News and the Atlanta Journal Constitution. Involved in creating assignment, exams and conducting recitation sessions. Also taught the on-campus version of the course.}
-      \resumeItemListEnd
-
   \resumeSubHeadingListEnd
 
 
