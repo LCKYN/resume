@@ -17,6 +17,10 @@
 \usepackage{fancyhdr}
 \usepackage[english]{babel}
 \usepackage{tabularx}
+
+%  new import
+\usepackage{ragged2e}
+
 \input{glyphtounicode}
 
 \pagestyle{fancy}
@@ -50,7 +54,7 @@
 % Custom commands
 \newcommand{\resumeItem}[2]{
   \item\small{
-    \textbf{#1}{: #2 \vspace{-2pt}}
+    \textbf{#1}{ :\justifying{#2}\par \vspace{-2pt}}
   }
 }
 
@@ -76,7 +80,7 @@
     \end{tabular*}\vspace{-5pt}
 }
 
-\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-4pt}}
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1} {#2}\vspace{-4pt}}
 
 \renewcommand{\labelitemii}{$\circ$}
 
@@ -87,36 +91,14 @@
 
 
 
-% ------------------------------------------
-%%%%%% info %%%%%%%%%%%%%%%%%%%%%
-\newcommand\name{Pawarit Thareechan}
-\newcommand\email{root@lckyn.com}
-\newcommand\mobie{(+66)083-028-2014}
-
-%-----------info EDUCATION-----------------
-%-----------info bachelor-----------------
-\newcommand\bachelorUniversity{King Mongkut's University of Technology North Bangkok(KMUTNB)}
-\newcommand\bachelorMajor{Bachelor of Engineering in Computer}
-\newcommand\BachelorLocation{Bangkok, TH}
-\newcommand\bachelorDate{Aug. 2015 -- Apr. 2019}
-\newcommand\bachelorGPA{2.6}
-
-%-----------info master-----------------
-\newcommand\masterUniversity{King Mongkut's University of Technology North Bangkok(KMUTNB)}
-\newcommand\masterMajor{Master of Engineering in Computer}
-\newcommand\masterLocation{Bangkok, TH}
-\newcommand\masterDate{Aug. 2019 -- present}
-\newcommand\masterGPA{3.43}
-% ------------------------------------------
 %%%%%%  CV STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 
 \begin{document}
-
 %----------HEADING-----------------
 \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
-  \textbf{{\Large \name}} & Email : \href{mailto:\email}{\email}\\
-   & Mobile : \mobie \\
+  \textbf{{\Large Pawarit Thareechan}} & Email : \href{mailto:root@lckyn.com}{root@lckyn.com}\\
+   & Mobile : (+66)083-028-2014 \\
 \end{tabular*}
 
 
@@ -124,11 +106,11 @@
 \section{Education}
     \resumeSubHeadingListStart
         \resumeSubheading
-            {\masterUniversity}{\masterLocation}
-            {\masterMajor;  GPA: \masterGPA}{\masterDate}
+            {King Mongkut's University of Technology North Bangkok(KMUTNB)}{Bangkok, TH}
+            {Master of Engineering in Computer;  GPA: 3.43}{Aug. 2019 -- present}
         \resumeSubheading
-            {\bachelorUniversity}{\BachelorLocation}
-        {\bachelorMajor;  GPA: \bachelorGPA}{\bachelorDate}
+            {King Mongkut's University of Technology North Bangkok(KMUTNB)}{Bangkok, TH}
+        {Bachelor of Engineering in Computer;  GPA: 2.6}{Aug. 2015 -- Apr. 2019}
     \resumeSubHeadingListEnd
 
 
@@ -137,18 +119,22 @@
   \resumeSubHeadingListStart
 
     \resumeSubheading
-      {iCONEXT CO., LTD.}{Bangkok, TH}
-      {Software Engineer (Internship)}{Apr 2018 - Jul 2018}
-      \resumeItemListStart
-        \resumeItem{C\# LineBot}
-          {more detail}
-        \resumeItem{C\# Order report}
-          {more detail}
-      \resumeItemListEnd
+        {iCONEXT CO., LTD.}{Bangkok, TH}
+        {Software Engineer (Internship)}{Apr 2018 - Jul 2018}
+        \resumeItemListStart
+            \resumeItem{C\# LineBot}
+            {
+                Line Bot account, manage meeting rooms, check availability and bookings.
+            }
+            \resumeItem{C\# Order report}
+            {
+                Connect to the database and display the data in the form of reports.
+            }
+        \resumeItemListEnd
   \resumeSubHeadingListEnd
 
 
-%-----------PROJECTS-----------------
+%-----------Accomplishments-----------------
 \section{Accomplishments}
   \resumeSubHeadingListStart
     \resumeSubItem{Health Data Science Hackathon by BDMS (2021)}
@@ -156,15 +142,23 @@
             more detail
         }
         \resumeItemListStart
-            \resumeItem{Reward}
-                {10,000 THB (Approximate 300 USD)}
+            \resumeItem{Achieve}
+                {Reward 10,000 THB (Approximate 300 USD)}
+        \resumeItemListEnd
+    \resumeSubItem{Codesignal (2020)}
+        {
+            Programming training website. This website has many problems to solve. Can be done in multiple languages. And a wide variety of problems such as tree, dynamic programming, greedy technique and interview practice. I solved about 200 problems on this website.
+        }
+        \resumeItemListStart
+            \resumeItem{Achieve}
+                {Leaderboard top 10 - All time (Thailand)}
         \resumeItemListEnd
     \resumeSubItem{Variable Selection using AUC optimization (2019)}
       {
-        more detail
+        Use L2 (lasso) to select attributes and evaluate their performance with AUC.
       }
         \resumeItemListStart
-            \resumeItem{Reward}
+            \resumeItem{Achieve}
                 {Senior Project}
         \resumeItemListEnd
     \resumeSubItem{Cyber Security Challenge by KPMG (2018)}
@@ -172,7 +166,7 @@
         more detail
       }
         \resumeItemListStart
-            \resumeItem{Reward}
+            \resumeItem{Achieve}
                 {Participation}
         \resumeItemListEnd
   \resumeSubHeadingListEnd
