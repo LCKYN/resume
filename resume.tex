@@ -55,9 +55,14 @@
 % Custom commands
 \newcommand{\resumeItem}[2]{
   \item\small{
-    \textbf{#1}{ :\justifying{#2}\par \vspace{-2pt}}
+    \textbf{#1}{ : \justifying{#2}\par \vspace{-2pt}}
   }
 }
+
+\newcommand{\resumeDetail}[1]{
+  \item[]\small{
+     \justifying{#1}\par \vspace{-2pt}}
+  }
 
 % Just in case someone needs a heading that does not need to be in a list
 \newcommand{\resumeHeading}[4]{
@@ -100,7 +105,6 @@
 \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
   \textbf{{\Huge Pawarit Thareechan}} & \faIcon{envelope} \href{mailto:root@lckyn.com}{root@lckyn.com}\\
   \faIcon{map-marker-alt} Bangkok, TH & \faIcon{mobile-alt} (+66)083-028-2014 \\
-  \faIcon{github} @LCKYN \\
 \end{tabular*}
 
 
@@ -119,67 +123,51 @@
 %-----------EXPERIENCE-----------------
 \section{Experience}
   \resumeSubHeadingListStart
-
     \resumeSubheading
         {iCONEXT CO., LTD.}{Bangkok, TH}
         {Software Engineer (Internship)}{Apr 2018 - Jul 2018}
-        \resumeItemListStart
-            \resumeItem{C\# LineBot}
-            {
-                Line Bot account is automatic response. feature Meeting room management, availability check, reservations,  and push notifications.
-            }
-            \resumeItem{C\# Order report}
-            {
-                Connect to the database and display the data in the form of reports.
-            }
-        \resumeItemListEnd
   \resumeSubHeadingListEnd
 
 
 %-----------Accomplishments-----------------
 \section{Accomplishments}
-  \resumeSubHeadingListStart
-    \resumeSubItem{Health Data Science Hackathon by BDMS (2021)}
-        {
-            1-day hackathon. Analyze patient data anonymously, visualize data,  check for abnormality and predict data trends.
-        }
-        \resumeItemListStart
-            \resumeItem{Achieve}
-                {
-                    Reward 10,000 THB (Approximate 300 USD)
-                }
-        \resumeItemListEnd
-    \resumeSubItem{Codesignal (2020)}
-        {
-            Programming training website. This website has many problems to solve. Can be done in multiple languages. And a wide variety of problems such as tree, dynamic programming, greedy technique and interview practice. I solved about 200 problems on this website.
-        }
-        \resumeItemListStart
-            \resumeItem{Achieve}
-                {
-                    Leaderboard top 10 - All time (Thailand)
-                }
-        \resumeItemListEnd
-    \resumeSubItem{Variable Selection using AUC optimization (2019)}
-      {
+\resumeSubHeadingListStart
+\resumeSubheading
+    {{Health Data Science Hackathon by BDMS }}{Bangkok, TH}
+    {Reward 10,000 THB (Approximate 300 USD)}{(2021)} 
+    \resumeItemListStart
+      \resumeDetail{
+        1-day hackathon with 3 - 5 person each team. Analyze patient data anonymously, visualize data,  check for abnormality and predict data trends.
+      }
+    \resumeItemListEnd
+
+\resumeSubheading
+    {{Codesignal}}{Global}
+    {Leaderboard top 10 - All time (Thailand)}{(2020)} 
+    \resumeItemListStart
+      \resumeDetail{
+        Programming training website. This website has many problems to solve. Can be done in multiple languages. And a wide variety of problems such as tree, dynamic programming, greedy technique and interview practice.
+      }
+    \resumeItemListEnd
+
+\resumeSubheading
+    {{Variable Selection using AUC optimization}}{Bangkok, TH}
+    {Senior Project}{(2019)} 
+    \resumeItemListStart
+      \resumeDetail{
         Use L2 (lasso) to select attributes and evaluate their performance with AUC.
       }
-        \resumeItemListStart
-            \resumeItem{Achieve}
-                {
-                    Senior Project
-                }
-        \resumeItemListEnd
-    \resumeSubItem{Cyber Security Challenge by KPMG (2018)}
-      {
-        1-day system Hack competition. In many methods such as SQL injection, web vulnerability, ssh vulnerability.
+    \resumeItemListEnd
+
+\resumeSubheading
+    {{Cyber Security Challenge by KPMG}}{Bangkok, TH}
+    {Participation}{(2018)} 
+    \resumeItemListStart
+      \resumeDetail{
+        1-day system Hack competition In many methods such as SQL injection, web vulnerability, ssh vulnerability.
       }
-        \resumeItemListStart
-            \resumeItem{Achieve}
-                {
-                    Participation
-                }
-        \resumeItemListEnd
-  \resumeSubHeadingListEnd
+    \resumeItemListEnd
+\resumeSubHeadingListEnd
 
 
 % --------PROGRAMMING SKILLS------------
@@ -195,4 +183,10 @@
             }
   \resumeSubHeadingListEnd
 %-------------------------------------------
+
+\newpage
+\textbf{{\Huge Pawarit Thareechan}}\\
+\section{\Large Personal information}
+tttttttt
+
 \end{document}
