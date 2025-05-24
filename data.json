@@ -1,0 +1,80 @@
+{
+    "name": "Pawarit Thareechan",
+    "contact": {
+        "email": "T.Pawarit@lckyn.com",
+        "phone": "+66 83-028-2014",
+        "linkedin": "linkedin.lckyn.com",
+        "github": "github.lckyn.com"
+    },
+    "title": "Data Scientist | Machine Learning Engineer",
+    "experience": [
+        {
+            "company": "Avalant Co. Ltd.",
+            "position": "Data Scientist",
+            "duration": "Apr 2023 – Present",
+            "detail": "1 year 1 month",
+            "descriptions": [
+                "Built deep learning models for failure prediction in wind turbines using time-series data.",
+                "Implemented a scalable data lakehouse pipeline with Apache Spark, Apache Iceberg, Superset, Min.io, and Apache Airflow.",
+                "Developed Python tools to support employee performance and feedback analytics."
+            ]
+        },
+        {
+            "company": "Looloo Technology",
+            "position": "Machine Learning Engineer",
+            "duration": "Aug 2021 – Mar 2023",
+            "detail": "1 year 8 months",
+            "descriptions": [
+                "Built ML solutions for car finance pricing, symptom classification, and speech-to-animation generation.",
+                "Used TensorFlow, EfficientNet, OpenCV, and scikit-learn to deliver models for image, text, and audio domains.",
+                "Applied spaCy and clustering techniques to extract healthcare-related patterns from unstructured text."
+            ]
+        },
+        {
+            "company": "iCONEXT Co., Ltd.",
+            "position": "Software Engineer (Internship)",
+            "duration": "Apr 2018 – Jul 2018",
+            "detail": "4 months      ",
+            "descriptions": [
+                "Created a chatbot in C# to automate meeting room booking via Line messaging.",
+                "Developed a sales reporting system to automate weekly database reports and streamline analysis."
+            ]
+        }
+    ],
+    "accomplishments": [
+        {
+            "year": "2021",
+            "title": "Health Data Science Hackathon by BDMS – Winner, THB 10,000 prize",
+            "description": "Built a healthcare prediction model and visualized insights to support diagnosis and resource planning"
+        },
+        {
+            "year": "2021",
+            "title": "Teaching Assistant – Computer Engineering",
+            "description": "Assisted in undergraduate courses: Data Structures and Algorithms, Machine Learning"
+        },
+        {
+            "year": "2019",
+            "title": "Senior Project – Variable Selection via AUC Optimization",
+            "description": "Built a feature selection method to improve classification performance"
+        },
+        {
+            "year": "2018",
+            "title": "Cyber Security Challenge by KPMG – Participant",
+            "description": "Competed in real-world cybersecurity scenarios"
+        }
+    ],
+    "education": [
+        {
+            "degree": "Bachelor of Engineering in Computer Engineering",
+            "university": "King Mongkut's University of Technology North Bangkok (KMUTNB)",
+            "duration": "Aug 2015 – Apr 2019",
+            "detail": "3 years 8 months"
+        }
+    ],
+    "skills": {
+        "Programming": "Python, SQL, C#, Shell, JavaScript",
+        "Domains": "Supervised & Unsupervised Learning, Deep Learning, NLP, Computer Vision, Predictive Modeling, Data Pipelines, Data Lakehouse, ETL, Workflow Orchestration, Data Visualization, Web Hosting, Server Management, Remote Access",
+        "DevOps & Infrastructure": "Docker, Git, CI/CD, GitHub Actions, Server Configuration, Remote Deployment",
+        "Tools & Platforms": "TensorFlow, scikit-learn, Apache Spark, Apache Airflow, Apache Superset, Apache Iceberg, Pandas, NumPy, OpenCV, Min.io, Jupyter Notebook, VS Code"
+    }
+}
